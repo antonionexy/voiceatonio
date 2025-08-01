@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const SIGNALING_SERVER_URL = 'wss://SEU-SERVIDOR-DE-SINALIZACAO'; // Vai substituir depois
+const SIGNALING_SERVER_URL = 'wss://voiceantoniosinaliza-production.up.railway.app'; // Vai substituir depois
 
 export default function App() {
   const localAudioRef = useRef(null);
